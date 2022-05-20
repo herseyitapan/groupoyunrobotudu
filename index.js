@@ -261,7 +261,7 @@ bot.command("game", ctx => {
 		} else {
 			createChat(chatId)
 		}
-		ctx.replyWithMarkdown("*🥰 Təxmin Oyunu Başlayır Hər Birinizə Uğurlar. 🥰*")
+		ctx.replyWithMarkdown("🥰 Təxmin Oyunu Başlayır Hər Birinizə Uğurlar. 🥰")
 		startGame(ctx, chatId)
 	} else {
 		ctx.reply("🆘 Bu Əmr Qruplar Üçün Təyin Olunub 🆘")
