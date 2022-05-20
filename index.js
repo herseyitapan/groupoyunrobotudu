@@ -33,7 +33,8 @@ const getGreetMessage = isGroup =>
 	/chart - 🌎 Qlobal Reyting
 	/botlist - 📌 Hazır deyil
 	
-	🧑‍💻 Sahibim: @HuseynH
+	🧑‍💻 Qurucu: @Vusaliww 🇦🇿
+✅Rəsmi Kanal: @cGuesMasterResmi, @VusalinBlogu 🤍
 `)
 const getRandomPerson = () => {
 	let imagePath = "./photos"
