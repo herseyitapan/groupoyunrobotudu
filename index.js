@@ -34,7 +34,7 @@ const getGreetMessage = isGroup =>
 	/botlist - 📌 Hazır deyil
 	
 	🧑‍💻 Qurucu: @Vusaliww 🇦🇿
-✅Rəsmi Kanal: @cGuesMasterResmi, @VusalinBlogu 🤍
+✅Rəsmi Kanallar: @cGuesMasterResmi, @VusalinBlogu 🤍
 `)
 const getRandomPerson = () => {
 	let imagePath = "./photos"
@@ -121,7 +121,7 @@ const stopGame = (ctx, chatId) => {
 			)
 		}
 	} else {
-		ctx.reply("❌ Qrupuunuzda  Oyun  Başladılmayıb  /game Əmri ilə Başlada Bilərsiniz.")
+		ctx.reply("❌ Qrupunuzda  Oyun  Başladılmayıb  /game Əmri ilə Başlada Bilərsiniz.🎉")
 	}
 }
 const getRoundMessage = (chatId, round, time) => {
@@ -144,8 +144,7 @@ const getRoundMessage = (chatId, round, time) => {
 📌 Şəkil Dəki Şəxsin Yaşını Tapmın.
 ⏱️ Vaxt 20 Saniyyə
 
-🤖 Musiqi Botumuz 🤖
-🎶 @MusicAzBot 🎶
+✅Rəsmi Kanallara Abone Olaq: @cGuesMasterResmi, @VusalinBlogu 🤍
 
 		${answers.length > 0 ? `\n${answers.map((member, index) => `${index + 1}. *${member.firstName}*: ${member.answer}`).join("\n")}\n` : ""}
 		${"⬛".repeat(time)}${"⬜".repeat(config.timerSteps - time)}
@@ -213,7 +212,7 @@ const startGame = (ctx, chatId) => {
 					}
 				)
 			} else {
-				ctx.reply(" Mənim lə Oynamadığın Üçün Oyunu Sonlandırdım 🥺 .")
+				ctx.reply(" Mənim lə Oynamadığın Üçün Oyunu Sonlandırdım ❌ .")
 				stopGame(ctx, chatId)
 				return
 			}
